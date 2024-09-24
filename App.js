@@ -6,6 +6,12 @@ import ListaVeiculos from './Src/ListadeVeiculos';
 import CadastroManutencao from './Src/CadastroManutencao';
 import ListaManutencao from './Src/ListaManutencao';
 import Home from './Src/Home';
+import * as SplashScreen from 'expo-splash-screen';
+
+
+
+SplashScreen.preventAutoHideAsync();
+setTimeout(SplashScreen.hideAsync, 5000);
 
 const Stack = createNativeStackNavigator();
 

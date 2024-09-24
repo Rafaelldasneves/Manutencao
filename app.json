@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Prototipo",
-    "slug": "Prototipo",
+    "name": "Manutenção",
+    "slug": "prototipo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,17 +15,19 @@
       "supportsTablet": true
     },
     "android": {
+      "versionCode": "1",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/Gcm1.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.rafaelldasneves.Prototipo"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/Gcm1.png"
     },
     "extra": {
       "eas": {
-        "projectId": "8266cbfb-ddaa-4e89-9180-70f1d974ab92"
+        "projectId": "067caa65-0c19-4139-af32-918edff0fa1d"
       }
     },
     "owner": "rafaelldasneves"
